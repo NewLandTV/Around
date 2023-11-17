@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{199e80c4-3d66-4665-adf4-f291e4257337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics">
+      <UniqueIdentifier>{1b815147-5a37-4de9-b16b-dd968061cf25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Sounds">
+      <UniqueIdentifier>{2c86a2a7-73ce-4e59-b35f-dbcfc2259fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Games">
+      <UniqueIdentifier>{43e6783e-9a65-4f71-897c-862219a3f3ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{08df17bf-746c-4e1a-94eb-6d72beebd983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Images">
+      <UniqueIdentifier>{71dc65bb-bf08-4560-85bc-c491e08fe565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Icons">
+      <UniqueIdentifier>{f0329cfa-7e9f-42a9-86c7-b48f8cced556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Datas">
+      <UniqueIdentifier>{736821ff-65b0-4895-b988-d2c8263eb827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Sounds">
+      <UniqueIdentifier>{e3df996c-29dc-4c6e-b5cc-ef4ac332ab76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundPlayer.cpp">
+      <Filter>Source\Sounds</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Source\Games</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>Source\Datas</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source\Games</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source\Games</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source\Games</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Renderer.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundPlayer.h">
+      <Filter>Source\Sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Source\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>Source\Datas</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Source\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Source\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Source\Games</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="GameBackground.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Character_0.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Character_1.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Character_2.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Character_3.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Character_4.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Character_5.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Character_6.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Character_7.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Character_8.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Character_9.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Character_10.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Character_11.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Character_12.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Character_13.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Character_14.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Character_15.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Character_16.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Character_17.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="Icon.ico">
+      <Filter>Resource\Icons</Filter>
+    </Image>
+    <Image Include="TitleBackground.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="InventoryBackground.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="CharacterHealthBar_3.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="CharacterHealthBar_0.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="CharacterHealthBar_1.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="CharacterHealthBar_2.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="InventoryBackground.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+    <Image Include="HealthPotion.png">
+      <Filter>Resource\Images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Main.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
